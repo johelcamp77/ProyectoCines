@@ -62,6 +62,7 @@
     <Compile Include="Cartelera3.Designer.cs">
       <DependentUpon>Cartelera3.cs</DependentUpon>
     </Compile>
+    <Compile Include="Conexion.cs" />
     <Compile Include="MenuPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>

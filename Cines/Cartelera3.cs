@@ -17,7 +17,7 @@ namespace Cines
         Conexion conexionBase = new Conexion();
         public Cartelera3()
         {
-            InitializeComponent();
+           /* InitializeComponent();
             string sql;
             DataTable dt = new DataTable();
             sql = "select * from Pelicula where tipoSala = '3D'";
@@ -26,10 +26,15 @@ namespace Cines
             sqla.Fill(dt);
             conexionBase.sqlconn.Close();
             dataGridView1.DataSource = dt;
-            InitializeComponent();
+            InitializeComponent();*/
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void Cartelera3_Load(object sender, EventArgs e)
         {
 
         }

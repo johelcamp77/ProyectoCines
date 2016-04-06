@@ -10,3 +10,16 @@ C:\Users\campo_000\Desktop\ProyectoCines\Cines\obj\Debug\Cines.Properties.Resour
 C:\Users\campo_000\Desktop\ProyectoCines\Cines\obj\Debug\Cines.csproj.GenerateResource.Cache
 C:\Users\campo_000\Desktop\ProyectoCines\Cines\obj\Debug\Cines.exe
 C:\Users\campo_000\Desktop\ProyectoCines\Cines\obj\Debug\Cines.pdb
+C:\Users\Jonathan\Desktop\ProyectoCines\Cines\bin\Debug\Cines.exe.config
+C:\Users\Jonathan\Desktop\ProyectoCines\Cines\obj\Debug\Cines.exe
+C:\Users\Jonathan\Desktop\ProyectoCines\Cines\obj\Debug\Cines.pdb
+C:\Users\Jonathan\Desktop\ProyectoCines\Cines\bin\Debug\Cines.exe
+C:\Users\Jonathan\Desktop\ProyectoCines\Cines\bin\Debug\Cines.pdb
+C:\Users\Jonathan\Desktop\ProyectoCines\Cines\obj\Debug\Cines.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan\Desktop\ProyectoCines\Cines\obj\Debug\Cines.Cartelera1.resources
+C:\Users\Jonathan\Desktop\ProyectoCines\Cines\obj\Debug\Cines.Cartelera2.resources
+C:\Users\Jonathan\Desktop\ProyectoCines\Cines\obj\Debug\Cines.Cartelera3.resources
+C:\Users\Jonathan\Desktop\ProyectoCines\Cines\obj\Debug\Cines.MenuPrincipal.resources
+C:\Users\Jonathan\Desktop\ProyectoCines\Cines\obj\Debug\Cines.Properties.Resources.resources
+C:\Users\Jonathan\Desktop\ProyectoCines\Cines\obj\Debug\Cines.csproj.GenerateResource.Cache
+C:\Users\Jonathan\Desktop\ProyectoCines\Cines\obj\Debug\Cines.MenuVentas.resources

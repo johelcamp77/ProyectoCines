@@ -87,6 +87,7 @@
             this.Name = "Cartelera1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Cartelera1";
+            this.Load += new System.EventHandler(this.Cartelera1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

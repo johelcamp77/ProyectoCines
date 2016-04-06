@@ -17,7 +17,7 @@ namespace Cines
         Conexion conexionBase = new Conexion();
         public Cartelera1()
         {
-            InitializeComponent();
+           /* InitializeComponent();
             string sql;
             DataTable dt = new DataTable();
             sql = "select * from Pelicula where tipoSala = 'Sencilla'";
@@ -25,7 +25,7 @@ namespace Cines
             SqlDataAdapter sqla = new SqlDataAdapter(sql, conexionBase.sqlconn);
             sqla.Fill(dt);
             conexionBase.sqlconn.Close();
-            dataGridView1.DataSource = dt;
+            dataGridView1.DataSource = dt;*/
         }
         private void button1_Click(object sender, EventArgs e)
         {
@@ -34,6 +34,11 @@ namespace Cines
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void Cartelera1_Load(object sender, EventArgs e)
         {
 
         }

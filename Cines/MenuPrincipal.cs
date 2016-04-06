@@ -15,7 +15,7 @@ namespace Cines
 {
     public partial class MenuPrincipal : Form
     {
-        public MenuPrincipal()
+        public  MenuPrincipal()
         {
             InitializeComponent();
         }
@@ -51,6 +51,20 @@ namespace Cines
         private void Cartel1_FormClosed(object sender, FormClosedEventArgs e)
         {
             throw new NotImplementedException();
+        }
+
+        private void VentaBtn_Click(object sender, EventArgs e)
+        {
+            MenuVentas MenuVentas = new MenuVentas();
+
+            
+            MenuVentas.Show();
+
+        }
+
+        private void salirbtn_Click(object sender, EventArgs e)
+        {
+            Dispose();
         }
     }
 }

@@ -10,7 +10,8 @@ namespace Cines
 {
     class Conexion
     {
-        public static string conexion = "Data Source=JOECAMP77;" + "Initial Catalog=bd_Cine;" + "Integrated Security=True;";
+        //public static string conexion = "Data Source=JONATHAN-PC;" + "Initial Catalog=bd_Cine;" + "Integrated Security=True;";//Jonathan
+        public static string conexion = "Data Source=JOECAMP77;" + "Initial Catalog=bd_Cine;" + "Integrated Security=True;";//Johel
         public SqlConnection sqlconn = new SqlConnection(Conexion.conexion);
         public SqlCommand sqlcomm = new SqlCommand();
 

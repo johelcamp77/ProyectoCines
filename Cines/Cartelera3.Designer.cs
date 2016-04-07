@@ -61,7 +61,6 @@
             this.ControlBox = false;
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView1);
-            this.Enabled = false;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Location = new System.Drawing.Point(680, 200);
             this.Name = "Cartelera3";

@@ -15,7 +15,7 @@ namespace Cines
 {
     public partial class MenuPrincipal : Form
     {
-        public  MenuPrincipal()
+        public MenuPrincipal()
         {
             InitializeComponent();
         }
@@ -43,7 +43,7 @@ namespace Cines
             mostraCartelera.Start();
 
             //frm1 = new Form1();
-            
+
 
 
         }
@@ -56,15 +56,13 @@ namespace Cines
         private void VentaBtn_Click(object sender, EventArgs e)
         {
             MenuVentas MenuVentas = new MenuVentas();
-
-            
             MenuVentas.Show();
 
         }
 
         private void salirbtn_Click(object sender, EventArgs e)
         {
-            Dispose();
+            Application.Exit();
         }
     }
 }

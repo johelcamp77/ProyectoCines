@@ -17,15 +17,16 @@ namespace Cines
         Conexion conexionBase = new Conexion();
         public Cartelera2()
         {
-            /*InitializeComponent();
+            InitializeComponent();
             string sql;
             DataTable dt = new DataTable();
-            sql = "select * from Pelicula where tipoSala = 'IMAX'";
+            sql = "select nombrePelicula as 'Película', idioma as Idioma, tipoSala as Sala, numeroSala as 'Sala número', horario as 'Horario'," +
+                " categoria as 'Categoría', duracion as 'Duración' from Pelicula where tipoSala = 'IMAX'";
             conexionBase.abrirConexion();
             SqlDataAdapter sqla = new SqlDataAdapter(sql, conexionBase.sqlconn);
             sqla.Fill(dt);
             conexionBase.sqlconn.Close();
-            dataGridView1.DataSource = dt;*/
+            dataGridView1.DataSource = dt;
         }
 
         private void Cartelera2_Load(object sender, EventArgs e)

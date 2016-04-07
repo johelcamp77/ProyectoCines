@@ -24,5 +24,11 @@ namespace Cines
             
             
         }
+
+        private void PuntoVentaBtn_Click(object sender, EventArgs e)
+        {
+            PuntoVentaUsuario puntoVenta = new PuntoVentaUsuario();
+            puntoVenta.Show();
+        }
     }
 }

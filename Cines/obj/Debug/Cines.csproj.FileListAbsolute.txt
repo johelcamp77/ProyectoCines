@@ -23,3 +23,6 @@ C:\Users\Jonathan\Desktop\ProyectoCines\Cines\obj\Debug\Cines.MenuPrincipal.reso
 C:\Users\Jonathan\Desktop\ProyectoCines\Cines\obj\Debug\Cines.Properties.Resources.resources
 C:\Users\Jonathan\Desktop\ProyectoCines\Cines\obj\Debug\Cines.csproj.GenerateResource.Cache
 C:\Users\Jonathan\Desktop\ProyectoCines\Cines\obj\Debug\Cines.MenuVentas.resources
+C:\Users\campo_000\Desktop\ProyectoCines\Cines\obj\Debug\Cines.MenuVentas.resources
+C:\Users\campo_000\Desktop\ProyectoCines\Cines\obj\Debug\Cines.PuntoVentaUsuario.resources
+C:\Users\campo_000\Desktop\ProyectoCines\Cines\obj\Debug\Cines.PuntoVenta.resources

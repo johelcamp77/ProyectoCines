@@ -32,6 +32,7 @@
             this.NuevaBtn = new System.Windows.Forms.Button();
             this.ViejaBtn = new System.Windows.Forms.Button();
             this.VolverBtn = new System.Windows.Forms.Button();
+            this.PuntoVentaBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // NuevaBtn
@@ -45,7 +46,7 @@
             // 
             // ViejaBtn
             // 
-            this.ViejaBtn.Location = new System.Drawing.Point(301, 181);
+            this.ViejaBtn.Location = new System.Drawing.Point(175, 181);
             this.ViejaBtn.Name = "ViejaBtn";
             this.ViejaBtn.Size = new System.Drawing.Size(102, 23);
             this.ViejaBtn.TabIndex = 1;
@@ -62,6 +63,16 @@
             this.VolverBtn.UseVisualStyleBackColor = true;
             this.VolverBtn.Click += new System.EventHandler(this.VolverBtn_Click);
             // 
+            // PuntoVentaBtn
+            // 
+            this.PuntoVentaBtn.Location = new System.Drawing.Point(283, 181);
+            this.PuntoVentaBtn.Name = "PuntoVentaBtn";
+            this.PuntoVentaBtn.Size = new System.Drawing.Size(102, 23);
+            this.PuntoVentaBtn.TabIndex = 3;
+            this.PuntoVentaBtn.Text = "Punto de Venta";
+            this.PuntoVentaBtn.UseVisualStyleBackColor = true;
+            this.PuntoVentaBtn.Click += new System.EventHandler(this.PuntoVentaBtn_Click);
+            // 
             // MenuVentas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -69,6 +80,7 @@
             this.BackgroundImage = global::Cines.Properties.Resources.Fondo_Logo;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(484, 362);
+            this.Controls.Add(this.PuntoVentaBtn);
             this.Controls.Add(this.VolverBtn);
             this.Controls.Add(this.ViejaBtn);
             this.Controls.Add(this.NuevaBtn);
@@ -87,5 +99,6 @@
         private System.Windows.Forms.Button NuevaBtn;
         private System.Windows.Forms.Button ViejaBtn;
         private System.Windows.Forms.Button VolverBtn;
+        private System.Windows.Forms.Button PuntoVentaBtn;
     }
 }

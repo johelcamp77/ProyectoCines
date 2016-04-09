@@ -44,6 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Asientos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Asientos.Designer.cs">
+      <DependentUpon>Asientos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Cartelera1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,6 +69,8 @@
       <DependentUpon>Cartelera3.cs</DependentUpon>
     </Compile>
     <Compile Include="Conexion.cs" />
+    <Compile Include="Consola.cs" />
+    <Compile Include="MaquinaVieja.cs" />
     <Compile Include="MenuPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,6 +97,9 @@
     <Compile Include="PuntoVentaUsuario.Designer.cs">
       <DependentUpon>PuntoVentaUsuario.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Asientos.resx">
+      <DependentUpon>Asientos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Cartelera1.resx">
       <DependentUpon>Cartelera1.cs</DependentUpon>
     </EmbeddedResource>
@@ -138,6 +149,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Fondo Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CINE.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

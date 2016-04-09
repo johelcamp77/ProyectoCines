@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace Cines
 {
     static class Program
@@ -17,6 +18,8 @@ namespace Cines
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new MenuPrincipal());
+
         }
+       
     }
 }

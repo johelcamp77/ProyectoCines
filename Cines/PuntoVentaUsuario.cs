@@ -37,6 +37,7 @@ namespace Cines
                 MessageBox.Show("Usuario: "+Convert.ToString(dt.Rows[0][1])+" correcto");
                 PuntoVenta puntoVenta = new PuntoVenta();
                 puntoVenta.Show();
+                this.Dispose();
 
             }
             catch { MessageBox.Show("Usuario/Contraseña incorrecto"); }

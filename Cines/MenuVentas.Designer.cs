@@ -52,6 +52,7 @@
             this.ViejaBtn.TabIndex = 1;
             this.ViejaBtn.Text = "Máquina Vieja";
             this.ViejaBtn.UseVisualStyleBackColor = true;
+            this.ViejaBtn.Click += new System.EventHandler(this.ViejaBtn_Click);
             // 
             // VolverBtn
             // 

@@ -43,6 +43,7 @@
             this.NuevaBtn.TabIndex = 0;
             this.NuevaBtn.Text = "Máquina Nueva";
             this.NuevaBtn.UseVisualStyleBackColor = true;
+            this.NuevaBtn.Click += new System.EventHandler(this.NuevaBtn_Click);
             // 
             // ViejaBtn
             // 
@@ -80,6 +81,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Cines.Properties.Resources.Fondo_Logo;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.CausesValidation = false;
             this.ClientSize = new System.Drawing.Size(484, 362);
             this.Controls.Add(this.PuntoVentaBtn);
             this.Controls.Add(this.VolverBtn);

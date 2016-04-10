@@ -70,6 +70,13 @@
     </Compile>
     <Compile Include="Conexion.cs" />
     <Compile Include="Consola.cs" />
+    <Compile Include="MaquinaNueva.cs" />
+    <Compile Include="MaquinaNuevaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MaquinaNuevaForm.Designer.cs">
+      <DependentUpon>MaquinaNuevaForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="MaquinaVieja.cs" />
     <Compile Include="MenuPrincipal.cs">
       <SubType>Form</SubType>
@@ -108,6 +115,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Cartelera3.resx">
       <DependentUpon>Cartelera3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MaquinaNuevaForm.resx">
+      <DependentUpon>MaquinaNuevaForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MenuPrincipal.resx">
       <DependentUpon>MenuPrincipal.cs</DependentUpon>
@@ -152,6 +162,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\CINE.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fondo Maquina Nueva.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\El_se_or_de_los_anillos_La_comunidad_del_anillo-876628736-large.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Harry_Potter_y_el_c_liz_de_fuego-872646483-large.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\la-naranja-mecanica-cartel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo-gris-de-lineas_1053-300.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -38,6 +38,10 @@ namespace Cines
             maquinaVieja.iniciar();
         }
 
-
+        private void NuevaBtn_Click(object sender, EventArgs e)
+        {
+            MaquinaNuevaForm MaquinaNueva = new MaquinaNuevaForm();
+            MaquinaNueva.Show();
+        }
     }
 }

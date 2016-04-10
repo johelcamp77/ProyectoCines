@@ -27,6 +27,17 @@ namespace Cines
             sqla.Fill(dt);
             conexionBase.sqlconn.Close();
             dataGridView1.DataSource = dt;
+            string Nombre = dataGridView1.Rows[0].Cells[0].Value.ToString();
+            string idioma = dataGridView1.Rows[0].Cells[1].Value.ToString();
+            string Sala = dataGridView1.Rows[0].Cells[3].Value.ToString();
+            string Horario = dataGridView1.Rows[0].Cells[4].Value.ToString();
+            string Categoria = dataGridView1.Rows[0].Cells[5].Value.ToString();
+
+            NombreLbl.Text = Nombre;
+            IdiomaLbl.Text = idioma;
+            SalaLbl.Text = Sala;
+            HorarioLbl.Text = Horario;
+
         }
         private void button1_Click(object sender, EventArgs e)
         {

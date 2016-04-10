@@ -30,6 +30,7 @@ namespace Cines
             Thread mostraCartelera = new Thread(() =>
             {
                 //Instanciar ventanas de la cartelera
+                
                 Cartelera1 cartel1 = new Cartelera1();
                 Cartelera2 cartel2 = new Cartelera2();
                 Cartelera3 cartel3 = new Cartelera3();

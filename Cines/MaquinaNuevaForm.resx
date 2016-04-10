@@ -117,29 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="volver" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\volver.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="El_se_or_de_los_anillos_La_comunidad_del_anillo-876628736-large" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\El_se_or_de_los_anillos_La_comunidad_del_anillo-876628736-large.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Fondo Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Fondo Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Fondo Maquina Nueva" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Fondo Maquina Nueva.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Harry_Potter_y_el_c_liz_de_fuego-872646483-large" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Harry_Potter_y_el_c_liz_de_fuego-872646483-large.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="la-naranja-mecanica-cartel" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\la-naranja-mecanica-cartel.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="CINE" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\CINE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="fondo-gris-de-lineas_1053-300" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\fondo-gris-de-lineas_1053-300.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
 </root>

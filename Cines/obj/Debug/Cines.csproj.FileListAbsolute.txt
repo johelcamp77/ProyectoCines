@@ -66,3 +66,5 @@ C:\Users\campo_000\Desktop\Nueva carpeta\ProyectoCines\Cines\obj\Debug\Cines.Pun
 C:\Users\campo_000\Desktop\Nueva carpeta\ProyectoCines\Cines\obj\Debug\Cines.PuntoVentaUsuario.resources
 C:\Users\campo_000\Desktop\Nueva carpeta\ProyectoCines\Cines\obj\Debug\Cines.csproj.GenerateResource.Cache
 >>>>>>> ab6f52d3f4403cdb20429c484ede7bad6b971e59
+C:\Users\campo_000\Desktop\ProyectoCines\Cines\obj\Debug\Cines.AgregarPelicula.resources
+C:\Users\campo_000\Desktop\ProyectoCines\Cines\obj\Debug\Cines.VentanaAdministrador.resources

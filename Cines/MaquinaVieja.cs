@@ -36,10 +36,15 @@ namespace Cines
                 });
                 mostrarAsientos.SetApartmentState(ApartmentState.STA);
                 mostrarAsientos.Start();
-                Console.WriteLine("\nSeleccione su Sala-Asiento");
-                string asientoSeleccionado = Console.ReadLine();
+                Console.WriteLine("\nSeleccione su Pelicula");
+                string pelicula = Console.ReadLine();
+                Console.WriteLine("\nSeleccione su Sala");
+                string sala = Console.ReadLine();
+                Console.WriteLine("\nSeleccione su asiento");
+                string asiento = Console.ReadLine();
+                string asientoSeleccionado = pelicula + "-" + sala + "-" + asiento;
                 Application.ExitThread();
-                string sql = "update Sala set estado = "+1+ "where idAsiento=" + "'"+asientoSeleccionado+"'";
+                string sql = "update Sala set estado = " + 1 + "where idAsiento=" + "'" + asientoSeleccionado + "'";
                 DataTable dt = new DataTable();
                 conexionBase.abrirConexion();
                 SqlDataAdapter sqla = new SqlDataAdapter(sql, conexionBase.sqlconn);
@@ -85,7 +90,7 @@ namespace Cines
         {
             string sql;
             DataTable dt = new DataTable();
-            sql = "select idAsiento from Sala where idPelicula=" + idPelicula+ " and estado="+0;
+            sql = "select idAsiento from Sala where idPelicula=" + idPelicula + " and estado=" + 0;
             conexionBase.abrirConexion();
             SqlDataAdapter sqla = new SqlDataAdapter(sql, conexionBase.sqlconn);
             sqla.Fill(dt);

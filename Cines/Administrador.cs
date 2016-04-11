@@ -31,6 +31,8 @@ namespace Cines
             try
             {
                 MessageBox.Show("Usuario: " + Convert.ToString(dt.Rows[0][1]) + " correcto");
+                VentanaAdministrador admin = new VentanaAdministrador();
+                admin.Show();
                 this.Dispose();
             }
             catch { MessageBox.Show("Usuario/Contraseña incorrecto"); }

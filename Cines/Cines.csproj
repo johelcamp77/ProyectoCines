@@ -50,6 +50,12 @@
     <Compile Include="Administrador.Designer.cs">
       <DependentUpon>Administrador.cs</DependentUpon>
     </Compile>
+    <Compile Include="AgregarPelicula.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarPelicula.Designer.cs">
+      <DependentUpon>AgregarPelicula.cs</DependentUpon>
+    </Compile>
     <Compile Include="Asientos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -110,8 +116,17 @@
     <Compile Include="PuntoVentaUsuario.Designer.cs">
       <DependentUpon>PuntoVentaUsuario.cs</DependentUpon>
     </Compile>
+    <Compile Include="VentanaAdministrador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentanaAdministrador.Designer.cs">
+      <DependentUpon>VentanaAdministrador.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Administrador.resx">
       <DependentUpon>Administrador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgregarPelicula.resx">
+      <DependentUpon>AgregarPelicula.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Asientos.resx">
       <DependentUpon>Asientos.cs</DependentUpon>
@@ -149,6 +164,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PuntoVentaUsuario.resx">
       <DependentUpon>PuntoVentaUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VentanaAdministrador.resx">
+      <DependentUpon>VentanaAdministrador.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

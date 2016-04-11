@@ -44,5 +44,25 @@ C:\Users\Jonathan\Desktop\ProyectoCines-master\Cines\obj\Debug\Cines.PuntoVenta.
 C:\Users\Jonathan\Desktop\ProyectoCines-master\Cines\obj\Debug\Cines.PuntoVentaUsuario.resources
 C:\Users\Jonathan\Desktop\ProyectoCines-master\Cines\obj\Debug\Cines.csproj.GenerateResource.Cache
 C:\Users\Jonathan\Desktop\ProyectoCines-master\Cines\obj\Debug\Cines.MaquinaNuevaForm.resources
+<<<<<<< HEAD
 C:\Users\campo_000\Desktop\ProyectoCines\Cines\obj\Debug\Cines.MaquinaNuevaForm.resources
 C:\Users\campo_000\Desktop\ProyectoCines\Cines\obj\Debug\Cines.Administrador.resources
+=======
+C:\Users\campo_000\Desktop\Nueva carpeta\ProyectoCines\Cines\bin\Debug\Cines.exe.config
+C:\Users\campo_000\Desktop\Nueva carpeta\ProyectoCines\Cines\obj\Debug\Cines.exe
+C:\Users\campo_000\Desktop\Nueva carpeta\ProyectoCines\Cines\obj\Debug\Cines.pdb
+C:\Users\campo_000\Desktop\Nueva carpeta\ProyectoCines\Cines\bin\Debug\Cines.exe
+C:\Users\campo_000\Desktop\Nueva carpeta\ProyectoCines\Cines\bin\Debug\Cines.pdb
+C:\Users\campo_000\Desktop\Nueva carpeta\ProyectoCines\Cines\obj\Debug\Cines.csprojResolveAssemblyReference.cache
+C:\Users\campo_000\Desktop\Nueva carpeta\ProyectoCines\Cines\obj\Debug\Cines.Asientos.resources
+C:\Users\campo_000\Desktop\Nueva carpeta\ProyectoCines\Cines\obj\Debug\Cines.Cartelera1.resources
+C:\Users\campo_000\Desktop\Nueva carpeta\ProyectoCines\Cines\obj\Debug\Cines.Cartelera2.resources
+C:\Users\campo_000\Desktop\Nueva carpeta\ProyectoCines\Cines\obj\Debug\Cines.Cartelera3.resources
+C:\Users\campo_000\Desktop\Nueva carpeta\ProyectoCines\Cines\obj\Debug\Cines.MaquinaNuevaForm.resources
+C:\Users\campo_000\Desktop\Nueva carpeta\ProyectoCines\Cines\obj\Debug\Cines.MenuPrincipal.resources
+C:\Users\campo_000\Desktop\Nueva carpeta\ProyectoCines\Cines\obj\Debug\Cines.MenuVentas.resources
+C:\Users\campo_000\Desktop\Nueva carpeta\ProyectoCines\Cines\obj\Debug\Cines.Properties.Resources.resources
+C:\Users\campo_000\Desktop\Nueva carpeta\ProyectoCines\Cines\obj\Debug\Cines.PuntoVenta.resources
+C:\Users\campo_000\Desktop\Nueva carpeta\ProyectoCines\Cines\obj\Debug\Cines.PuntoVentaUsuario.resources
+C:\Users\campo_000\Desktop\Nueva carpeta\ProyectoCines\Cines\obj\Debug\Cines.csproj.GenerateResource.Cache
+>>>>>>> ab6f52d3f4403cdb20429c484ede7bad6b971e59

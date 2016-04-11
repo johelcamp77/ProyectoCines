@@ -29,40 +29,51 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuPrincipal));
-            this.button1 = new System.Windows.Forms.Button();
-            this.VentaBtn = new System.Windows.Forms.Button();
-            this.salirbtn = new System.Windows.Forms.Button();
+            this.btnCartelera = new System.Windows.Forms.Button();
+            this.btnVenta = new System.Windows.Forms.Button();
+            this.btnSalir = new System.Windows.Forms.Button();
+            this.btnAdministrador = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // btnCartelera
             // 
-            this.button1.Location = new System.Drawing.Point(187, 109);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 27);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Cartelera";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnCartelera.Location = new System.Drawing.Point(187, 109);
+            this.btnCartelera.Name = "btnCartelera";
+            this.btnCartelera.Size = new System.Drawing.Size(100, 27);
+            this.btnCartelera.TabIndex = 0;
+            this.btnCartelera.Text = "Cartelera";
+            this.btnCartelera.UseVisualStyleBackColor = true;
+            this.btnCartelera.Click += new System.EventHandler(this.button1_Click);
             // 
-            // VentaBtn
+            // btnVenta
             // 
-            this.VentaBtn.Location = new System.Drawing.Point(187, 160);
-            this.VentaBtn.Name = "VentaBtn";
-            this.VentaBtn.Size = new System.Drawing.Size(100, 23);
-            this.VentaBtn.TabIndex = 1;
-            this.VentaBtn.Text = "Venta de Boletos";
-            this.VentaBtn.UseVisualStyleBackColor = true;
-            this.VentaBtn.Click += new System.EventHandler(this.VentaBtn_Click);
+            this.btnVenta.Location = new System.Drawing.Point(187, 160);
+            this.btnVenta.Name = "btnVenta";
+            this.btnVenta.Size = new System.Drawing.Size(100, 23);
+            this.btnVenta.TabIndex = 1;
+            this.btnVenta.Text = "Venta de Boletos";
+            this.btnVenta.UseVisualStyleBackColor = true;
+            this.btnVenta.Click += new System.EventHandler(this.VentaBtn_Click);
             // 
-            // salirbtn
+            // btnSalir
             // 
-            this.salirbtn.Location = new System.Drawing.Point(187, 308);
-            this.salirbtn.Name = "salirbtn";
-            this.salirbtn.Size = new System.Drawing.Size(100, 23);
-            this.salirbtn.TabIndex = 2;
-            this.salirbtn.Text = "Salir";
-            this.salirbtn.UseVisualStyleBackColor = true;
-            this.salirbtn.Click += new System.EventHandler(this.salirbtn_Click);
+            this.btnSalir.Location = new System.Drawing.Point(187, 308);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(100, 23);
+            this.btnSalir.TabIndex = 2;
+            this.btnSalir.Text = "Salir";
+            this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.salirbtn_Click);
+            // 
+            // btnAdministrador
+            // 
+            this.btnAdministrador.Location = new System.Drawing.Point(187, 200);
+            this.btnAdministrador.Name = "btnAdministrador";
+            this.btnAdministrador.Size = new System.Drawing.Size(100, 27);
+            this.btnAdministrador.TabIndex = 3;
+            this.btnAdministrador.Text = "Administrador";
+            this.btnAdministrador.UseVisualStyleBackColor = true;
+            this.btnAdministrador.Click += new System.EventHandler(this.btnAdministrador_Click);
             // 
             // MenuPrincipal
             // 
@@ -71,9 +82,10 @@
             this.BackgroundImage = global::Cines.Properties.Resources.Fondo_Logo;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(484, 362);
-            this.Controls.Add(this.salirbtn);
-            this.Controls.Add(this.VentaBtn);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnAdministrador);
+            this.Controls.Add(this.btnSalir);
+            this.Controls.Add(this.btnVenta);
+            this.Controls.Add(this.btnCartelera);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -87,9 +99,10 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button VentaBtn;
-        private System.Windows.Forms.Button salirbtn;
+        private System.Windows.Forms.Button btnCartelera;
+        private System.Windows.Forms.Button btnVenta;
+        private System.Windows.Forms.Button btnSalir;
+        private System.Windows.Forms.Button btnAdministrador;
     }
 }
 

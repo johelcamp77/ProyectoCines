@@ -44,3 +44,5 @@ C:\Users\Jonathan\Desktop\ProyectoCines-master\Cines\obj\Debug\Cines.PuntoVenta.
 C:\Users\Jonathan\Desktop\ProyectoCines-master\Cines\obj\Debug\Cines.PuntoVentaUsuario.resources
 C:\Users\Jonathan\Desktop\ProyectoCines-master\Cines\obj\Debug\Cines.csproj.GenerateResource.Cache
 C:\Users\Jonathan\Desktop\ProyectoCines-master\Cines\obj\Debug\Cines.MaquinaNuevaForm.resources
+C:\Users\campo_000\Desktop\ProyectoCines\Cines\obj\Debug\Cines.MaquinaNuevaForm.resources
+C:\Users\campo_000\Desktop\ProyectoCines\Cines\obj\Debug\Cines.Administrador.resources

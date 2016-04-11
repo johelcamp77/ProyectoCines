@@ -65,5 +65,11 @@ namespace Cines
         {
             Application.Exit();
         }
+
+        private void btnAdministrador_Click(object sender, EventArgs e)
+        {
+            Administrador admin = new Administrador();
+            admin.Show();
+        }
     }
 }

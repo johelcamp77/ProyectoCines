@@ -31,22 +31,21 @@ namespace Cines
                 Asientos asientos = new Asientos();
                 Thread mostrarAsientos = new Thread(() =>
                 {
-                    
                     asientos.Show();
                     Application.Run(asientos);
-
                 });
                 mostrarAsientos.SetApartmentState(ApartmentState.STA);
                 mostrarAsientos.Start();
-                Console.WriteLine("\nSeleccione su asiento");
-                string asientoSeleccionado=Console.ReadLine();
+                Console.WriteLine("\nSeleccione su Sala-Asiento");
+                string asientoSeleccionado = Console.ReadLine();
                 Application.ExitThread();
-               // asientos.Close();
+                string sql = "update Sala set estado = "+1+ "where idAsiento=" + "'"+asientoSeleccionado+"'";
+                DataTable dt = new DataTable();
+                conexionBase.abrirConexion();
+                SqlDataAdapter sqla = new SqlDataAdapter(sql, conexionBase.sqlconn);
+                sqla.Fill(dt);
+                conexionBase.sqlconn.Close();
                 iniciar();
-
-
-
-                //iniciar();
             }
             else if (opcion == "2")
             {
@@ -57,14 +56,9 @@ namespace Cines
                 Console.WriteLine("Opción inválida\n\n");
                 iniciar();
             }
-
-
-
-
         }
         public void generarAsientos()
         {
-
         }
 
         public void imprimirCartelera()
@@ -91,7 +85,7 @@ namespace Cines
         {
             string sql;
             DataTable dt = new DataTable();
-            sql = "select idAsiento from Pelicula p INNER JOIN Sala s on p.idPelicula= s.idPelicula where p.idPelicula=" + idPelicula;
+            sql = "select idAsiento from Sala where idPelicula=" + idPelicula+ " and estado="+0;
             conexionBase.abrirConexion();
             SqlDataAdapter sqla = new SqlDataAdapter(sql, conexionBase.sqlconn);
             sqla.Fill(dt);

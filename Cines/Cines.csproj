@@ -62,6 +62,12 @@
     <Compile Include="Asientos.Designer.cs">
       <DependentUpon>Asientos.cs</DependentUpon>
     </Compile>
+    <Compile Include="AsientosMaquinaNueva.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AsientosMaquinaNueva.Designer.cs">
+      <DependentUpon>AsientosMaquinaNueva.cs</DependentUpon>
+    </Compile>
     <Compile Include="Cartelera1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -130,6 +136,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Asientos.resx">
       <DependentUpon>Asientos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AsientosMaquinaNueva.resx">
+      <DependentUpon>AsientosMaquinaNueva.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Cartelera1.resx">
       <DependentUpon>Cartelera1.cs</DependentUpon>
@@ -204,6 +213,156 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\fondo-gris-de-lineas_1053-300.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Asientos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Asientos1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asiento no seleccionado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asiento A1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asiento A2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asiento A3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asiento A4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asiento A5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asiento A6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asiento A7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asiento A8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asiento A9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asiento B1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asiento B2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asiento B3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asiento B4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asiento B5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asiento B6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asiento B7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asiento B8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asiento B9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asiento C1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asiento C2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asiento C3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asiento C4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asiento C5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asiento C6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asiento C7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asiento C8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asiento C9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asiento D1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asiento D2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asiento D3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asiento D4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asiento D5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asiento D6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asiento D7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asiento D8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asiento D9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asiento E1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asiento E2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asiento E3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asiento E4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asiento E5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asiento E6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asiento E7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asiento E8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asiento E9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Asiento ocupado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Asiento seleccionado.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

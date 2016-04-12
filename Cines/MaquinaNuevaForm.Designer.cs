@@ -282,9 +282,9 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 337);
+            this.dataGridView1.Location = new System.Drawing.Point(12, 344);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(20, 20);
+            this.dataGridView1.Size = new System.Drawing.Size(14, 13);
             this.dataGridView1.TabIndex = 32;
             this.dataGridView1.Visible = false;
             // 
@@ -298,6 +298,7 @@
             this.Cartel2Btn.TabIndex = 33;
             this.Cartel2Btn.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.Cartel2Btn.UseVisualStyleBackColor = true;
+            this.Cartel2Btn.Click += new System.EventHandler(this.Cartel2Btn_Click);
             // 
             // Cartel1Btn
             // 
@@ -309,6 +310,7 @@
             this.Cartel1Btn.TabIndex = 34;
             this.Cartel1Btn.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.Cartel1Btn.UseVisualStyleBackColor = true;
+            this.Cartel1Btn.Click += new System.EventHandler(this.Cartel1Btn_Click);
             // 
             // Cartel3Btn
             // 
@@ -320,6 +322,7 @@
             this.Cartel3Btn.TabIndex = 35;
             this.Cartel3Btn.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.Cartel3Btn.UseVisualStyleBackColor = true;
+            this.Cartel3Btn.Click += new System.EventHandler(this.Cartel3Btn_Click);
             // 
             // Cartel4Btn
             // 
@@ -330,6 +333,7 @@
             this.Cartel4Btn.TabIndex = 36;
             this.Cartel4Btn.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.Cartel4Btn.UseVisualStyleBackColor = true;
+            this.Cartel4Btn.Click += new System.EventHandler(this.Cartel4Btn_Click);
             // 
             // VolverBtn
             // 
@@ -412,6 +416,6 @@
         private System.Windows.Forms.Button Cartel1Btn;
         private System.Windows.Forms.Button Cartel3Btn;
         private System.Windows.Forms.Button Cartel4Btn;
-        private System.Windows.Forms.Button VolverBtn;
+        public System.Windows.Forms.Button VolverBtn;
     }
 }

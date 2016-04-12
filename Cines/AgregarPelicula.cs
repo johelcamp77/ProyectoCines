@@ -50,7 +50,7 @@ namespace Cines
             {
                 string sql = "insert into Pelicula (idPelicula, nombrePelicula,idioma,tipoSala,NumeroSala,horario,categoria,duracion)values(" +
                     "'" + Convert.ToInt32(txtIdentificador.Text) + "','" + txtNombre.Text + "','" + txtIdioma.Text + "','" + comboTipoSala.SelectedItem.ToString()
-                    + "','" + Convert.ToInt32(txtNumeroSala.Text) + "','" + Convert.ToString(txtHorario.Text) + "','" + txtCategoria.Text + "','" + Convert.ToDateTime(txtDuracion.Text) + "')";
+                    + "','" + Convert.ToInt32(txtNumeroSala.Text) + "','" + Convert.ToString(txtHorario.Text) + "','" + txtCategoria.Text + "','" + /*Convert.ToDateTime(*/txtDuracion.Text/*)*/ + "')";
                 DataTable dt = new DataTable();
                 conexionBase.abrirConexion();
                 SqlDataAdapter sqla = new SqlDataAdapter(sql, conexionBase.sqlconn);
@@ -118,5 +118,9 @@ namespace Cines
 
         }
 
+        private void VolverBtn_Click(object sender, EventArgs e)
+        {
+            Dispose();
+        }
     }
 }

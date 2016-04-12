@@ -37,6 +37,11 @@ namespace Cines
             }
             catch { MessageBox.Show("Usuario/Contraseña incorrecto"); }
         }
+
+        private void VolverBtn_Click(object sender, EventArgs e)
+        {
+            Dispose();
+        }
     }
 }
 

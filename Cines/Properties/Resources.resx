@@ -118,17 +118,20 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="volver" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\volver.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="asiento A4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asiento A4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asiento C4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asiento C4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="El_se_or_de_los_anillos_La_comunidad_del_anillo-876628736-large" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\El_se_or_de_los_anillos_La_comunidad_del_anillo-876628736-large.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Fondo Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Fondo Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="asiento A6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asiento A6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Fondo Maquina Nueva" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Fondo Maquina Nueva.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="asiento B6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asiento B6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Harry_Potter_y_el_c_liz_de_fuego-872646483-large" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Harry_Potter_y_el_c_liz_de_fuego-872646483-large.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -136,10 +139,157 @@
   <data name="la-naranja-mecanica-cartel" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\la-naranja-mecanica-cartel.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="CINE" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\CINE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="volver" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\volver.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="fondo-gris-de-lineas_1053-300" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fondo-gris-de-lineas_1053-300.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asiento B8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asiento B8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asientos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Asientos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asiento E1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asiento E1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asiento E5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asiento E5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asiento no seleccionado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asiento no seleccionado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asiento D5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asiento D5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asiento E3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asiento E3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asiento B9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asiento B9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asiento E4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asiento E4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asiento A5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asiento A5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asiento B2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asiento B2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asiento D7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asiento D7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asiento D2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asiento D2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asiento C7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asiento C7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asiento D1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asiento D1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asiento A9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asiento A9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asiento B4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asiento B4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asiento D6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asiento D6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asiento E9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asiento E9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asiento C9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asiento C9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asiento B7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asiento B7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asiento B5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asiento B5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asiento D3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asiento D3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asientos1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Asientos1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asiento E7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asiento E7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asiento E2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asiento E2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asiento A3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asiento A3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asiento B1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asiento B1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asiento E8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asiento E8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fondo Maquina Nueva" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fondo Maquina Nueva.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asiento D8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asiento D8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asiento C3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asiento C3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fondo Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fondo Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asiento A2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asiento A2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asiento C6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asiento C6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asiento C8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asiento C8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asiento A8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asiento A8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asiento C2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asiento C2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asiento D9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asiento D9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asiento A1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asiento A1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CINE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CINE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asiento C5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asiento C5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asiento E6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asiento E6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asiento A7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asiento A7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asiento B3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asiento B3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asiento D4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asiento D4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asiento C1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asiento C1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asiento ocupado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Asiento ocupado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asiento seleccionado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Asiento seleccionado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

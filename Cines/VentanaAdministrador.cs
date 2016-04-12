@@ -22,5 +22,15 @@ namespace Cines
             AgregarPelicula agregarPelicula = new AgregarPelicula();
             agregarPelicula.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void VolverBtn_Click(object sender, EventArgs e)
+        {
+            Dispose();
+        }
     }
 }

@@ -29,8 +29,20 @@ namespace Cines
             nuevaPelicula();
             MessageBox.Show("Película agregada");
             generarAsientos();
+            limpiarAgregar();
         }
+        public void limpiarAgregar()
+        {
+            txtNombre.Text = "";
+            txtCategoria.Text = "";
+            txtDuracion.Text = "";
+            txtHorario.Text = "";
+            txtIdentificador.Text = "";
+            txtIdioma.Text = "";
+            txtNumeroSala.Text = "";
+            comboTipoSala.SelectedItem = 0;
 
+        }
         public void nuevaPelicula()
         {
             if (txtNombre.Text != "" && txtIdentificador.Text != "" && txtIdioma.Text != "" && comboTipoSala.SelectedItem != null && txtNumeroSala.Text != "" && txtHorario.Text != ""
@@ -38,7 +50,7 @@ namespace Cines
             {
                 string sql = "insert into Pelicula (idPelicula, nombrePelicula,idioma,tipoSala,NumeroSala,horario,categoria,duracion)values(" +
                     "'" + Convert.ToInt32(txtIdentificador.Text) + "','" + txtNombre.Text + "','" + txtIdioma.Text + "','" + comboTipoSala.SelectedItem.ToString()
-                    + "','" + Convert.ToInt32(txtNumeroSala.Text) + "','" + txtHorario.Text + "','" + txtCategoria.Text + "','" + /*Convert.ToDateTime(*/txtDuracion.Text/*)*/ + "')";
+                    + "','" + Convert.ToInt32(txtNumeroSala.Text) + "','" + Convert.ToString(txtHorario.Text) + "','" + txtCategoria.Text + "','" + Convert.ToDateTime(txtDuracion.Text) + "')";
                 DataTable dt = new DataTable();
                 conexionBase.abrirConexion();
                 SqlDataAdapter sqla = new SqlDataAdapter(sql, conexionBase.sqlconn);

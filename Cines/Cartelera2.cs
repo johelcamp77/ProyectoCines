@@ -25,8 +25,13 @@ namespace Cines
             conexionBase.abrirConexion();
             SqlDataAdapter sqla = new SqlDataAdapter(sql, conexionBase.sqlconn);
             sqla.Fill(dt);
-            conexionBase.sqlconn.Close();
+
             dataGridView1.DataSource = dt;
+            conexionBase.sqlconn.Close();
+            
+
+            
+
             String[,] Capturar = new String[3, 7];
             for (int i = 0; i < 3; i++)
             {

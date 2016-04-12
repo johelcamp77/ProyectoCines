@@ -15,9 +15,11 @@ namespace Cines
     public partial class Cartelera3 : Form
     {
         Conexion conexionBase = new Conexion();
+
         public Cartelera3()
         {
             InitializeComponent();
+            //dataGridView2 = null;
             string sql;
             DataTable dt = new DataTable();
             sql = "select nombrePelicula as 'Película', idioma as Idioma\n, tipoSala as Sala, numeroSala as 'Sala número', horario as 'Horario'," +
@@ -25,10 +27,13 @@ namespace Cines
             conexionBase.abrirConexion();
             SqlDataAdapter sqla = new SqlDataAdapter(sql, conexionBase.sqlconn);
             sqla.Fill(dt);
+           
             conexionBase.sqlconn.Close();
             dataGridView1.DataSource = dt;
 
-            string[,] Capturar = new String[3, 7];
+
+
+            string[,] Capturar = new string[3, 7];
             for (int i = 0; i < 3; i++)
             {
                 for (int j = 0; j < 7; j++)
@@ -36,17 +41,20 @@ namespace Cines
                     Capturar[i, j] = "";
                 }
             }
-            int numero = dataGridView1.RowCount * dataGridView1.ColumnCount;
-            
-            for (int r = 0; r < dataGridView1.RowCount; r++)
+            int numero = dataGridView1.RowCount;
+           // dataGridView1 = new DataGridView();
+            for (int r = 0; r < dataGridView1.RowCount-1; r++)
             {
                 for (int c = 0; c < dataGridView1.ColumnCount; c++)
                 {
-                    
-                    // Capturar[r, c] = dataGridView1.Rows[r].Cells[c].Value.ToString();
+                    Capturar[r, c] = dataGridView1.Rows[r].Cells[c].Value.ToString();
+                    //MessageBox.Show(Convert.ToString(dataGridView1.RowCount));
                 }
+                
+                //dataGridView1.DataSource = dt;
             }
             
+
             //Cartelera 1
             string Nombre = Capturar[0, 0];
             string idioma = Capturar[0, 1];

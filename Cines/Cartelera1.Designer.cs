@@ -35,6 +35,14 @@
             this.IdiomaLbl = new System.Windows.Forms.Label();
             this.SalaLbl = new System.Windows.Forms.Label();
             this.HorarioLbl = new System.Windows.Forms.Label();
+            this.Horario2Lbl = new System.Windows.Forms.Label();
+            this.Sala2Lbl = new System.Windows.Forms.Label();
+            this.Idioma2Lbl = new System.Windows.Forms.Label();
+            this.Nombre2Lbl = new System.Windows.Forms.Label();
+            this.Horario3Lbl = new System.Windows.Forms.Label();
+            this.Sala3Lbl = new System.Windows.Forms.Label();
+            this.Idioma3Lbl = new System.Windows.Forms.Label();
+            this.Nombre3Lbl = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -43,10 +51,10 @@
             this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.AllowUserToDeleteRows = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(221, 12);
+            this.dataGridView1.Location = new System.Drawing.Point(244, 12);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.Size = new System.Drawing.Size(34, 20);
+            this.dataGridView1.Size = new System.Drawing.Size(15, 21);
             this.dataGridView1.TabIndex = 1;
             this.dataGridView1.Visible = false;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
@@ -122,6 +130,96 @@
             this.HorarioLbl.TabIndex = 7;
             this.HorarioLbl.Text = "Horario";
             // 
+            // Horario2Lbl
+            // 
+            this.Horario2Lbl.AutoSize = true;
+            this.Horario2Lbl.BackColor = System.Drawing.Color.Transparent;
+            this.Horario2Lbl.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Horario2Lbl.Location = new System.Drawing.Point(218, 137);
+            this.Horario2Lbl.Name = "Horario2Lbl";
+            this.Horario2Lbl.Size = new System.Drawing.Size(41, 13);
+            this.Horario2Lbl.TabIndex = 11;
+            this.Horario2Lbl.Text = "Horario";
+            // 
+            // Sala2Lbl
+            // 
+            this.Sala2Lbl.AutoSize = true;
+            this.Sala2Lbl.BackColor = System.Drawing.Color.Transparent;
+            this.Sala2Lbl.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Sala2Lbl.Location = new System.Drawing.Point(13, 137);
+            this.Sala2Lbl.Name = "Sala2Lbl";
+            this.Sala2Lbl.Size = new System.Drawing.Size(28, 13);
+            this.Sala2Lbl.TabIndex = 10;
+            this.Sala2Lbl.Text = "Sala";
+            // 
+            // Idioma2Lbl
+            // 
+            this.Idioma2Lbl.AutoSize = true;
+            this.Idioma2Lbl.BackColor = System.Drawing.Color.Transparent;
+            this.Idioma2Lbl.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Idioma2Lbl.Location = new System.Drawing.Point(113, 137);
+            this.Idioma2Lbl.Name = "Idioma2Lbl";
+            this.Idioma2Lbl.Size = new System.Drawing.Size(38, 13);
+            this.Idioma2Lbl.TabIndex = 9;
+            this.Idioma2Lbl.Text = "Idioma";
+            // 
+            // Nombre2Lbl
+            // 
+            this.Nombre2Lbl.AutoSize = true;
+            this.Nombre2Lbl.BackColor = System.Drawing.Color.Transparent;
+            this.Nombre2Lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Nombre2Lbl.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Nombre2Lbl.Location = new System.Drawing.Point(12, 108);
+            this.Nombre2Lbl.Name = "Nombre2Lbl";
+            this.Nombre2Lbl.Size = new System.Drawing.Size(65, 20);
+            this.Nombre2Lbl.TabIndex = 8;
+            this.Nombre2Lbl.Text = "Nombre";
+            // 
+            // Horario3Lbl
+            // 
+            this.Horario3Lbl.AutoSize = true;
+            this.Horario3Lbl.BackColor = System.Drawing.Color.Transparent;
+            this.Horario3Lbl.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Horario3Lbl.Location = new System.Drawing.Point(218, 198);
+            this.Horario3Lbl.Name = "Horario3Lbl";
+            this.Horario3Lbl.Size = new System.Drawing.Size(41, 13);
+            this.Horario3Lbl.TabIndex = 15;
+            this.Horario3Lbl.Text = "Horario";
+            // 
+            // Sala3Lbl
+            // 
+            this.Sala3Lbl.AutoSize = true;
+            this.Sala3Lbl.BackColor = System.Drawing.Color.Transparent;
+            this.Sala3Lbl.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Sala3Lbl.Location = new System.Drawing.Point(13, 198);
+            this.Sala3Lbl.Name = "Sala3Lbl";
+            this.Sala3Lbl.Size = new System.Drawing.Size(28, 13);
+            this.Sala3Lbl.TabIndex = 14;
+            this.Sala3Lbl.Text = "Sala";
+            // 
+            // Idioma3Lbl
+            // 
+            this.Idioma3Lbl.AutoSize = true;
+            this.Idioma3Lbl.BackColor = System.Drawing.Color.Transparent;
+            this.Idioma3Lbl.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Idioma3Lbl.Location = new System.Drawing.Point(113, 198);
+            this.Idioma3Lbl.Name = "Idioma3Lbl";
+            this.Idioma3Lbl.Size = new System.Drawing.Size(38, 13);
+            this.Idioma3Lbl.TabIndex = 13;
+            this.Idioma3Lbl.Text = "Idioma";
+            // 
+            // Nombre3Lbl
+            // 
+            this.Nombre3Lbl.AutoSize = true;
+            this.Nombre3Lbl.BackColor = System.Drawing.Color.Transparent;
+            this.Nombre3Lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Nombre3Lbl.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Nombre3Lbl.Location = new System.Drawing.Point(12, 169);
+            this.Nombre3Lbl.Name = "Nombre3Lbl";
+            this.Nombre3Lbl.Size = new System.Drawing.Size(65, 20);
+            this.Nombre3Lbl.TabIndex = 12;
+            this.Nombre3Lbl.Text = "Nombre";
+            // 
             // Cartelera1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -130,6 +228,14 @@
             this.BackgroundImage = global::Cines.Properties.Resources.fondo_gris_de_lineas_1053_300;
             this.ClientSize = new System.Drawing.Size(284, 261);
             this.ControlBox = false;
+            this.Controls.Add(this.Horario3Lbl);
+            this.Controls.Add(this.Sala3Lbl);
+            this.Controls.Add(this.Idioma3Lbl);
+            this.Controls.Add(this.Nombre3Lbl);
+            this.Controls.Add(this.Horario2Lbl);
+            this.Controls.Add(this.Sala2Lbl);
+            this.Controls.Add(this.Idioma2Lbl);
+            this.Controls.Add(this.Nombre2Lbl);
             this.Controls.Add(this.HorarioLbl);
             this.Controls.Add(this.SalaLbl);
             this.Controls.Add(this.IdiomaLbl);
@@ -160,5 +266,13 @@
         private System.Windows.Forms.Label IdiomaLbl;
         private System.Windows.Forms.Label SalaLbl;
         private System.Windows.Forms.Label HorarioLbl;
+        private System.Windows.Forms.Label Horario2Lbl;
+        private System.Windows.Forms.Label Sala2Lbl;
+        private System.Windows.Forms.Label Idioma2Lbl;
+        private System.Windows.Forms.Label Nombre2Lbl;
+        private System.Windows.Forms.Label Horario3Lbl;
+        private System.Windows.Forms.Label Sala3Lbl;
+        private System.Windows.Forms.Label Idioma3Lbl;
+        private System.Windows.Forms.Label Nombre3Lbl;
     }
 }

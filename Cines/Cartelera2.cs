@@ -27,16 +27,56 @@ namespace Cines
             sqla.Fill(dt);
             conexionBase.sqlconn.Close();
             dataGridView1.DataSource = dt;
-            string Nombre = dataGridView1.Rows[0].Cells[0].Value.ToString();
-            string idioma = dataGridView1.Rows[0].Cells[1].Value.ToString();
-            string Sala = dataGridView1.Rows[0].Cells[3].Value.ToString();
-            string Horario = dataGridView1.Rows[0].Cells[4].Value.ToString();
-            string Categoria = dataGridView1.Rows[0].Cells[5].Value.ToString();
+            String[,] Capturar = new String[3, 7];
+            for (int i = 0; i < 3; i++)
+            {
+                for (int j = 0; j < 7; j++)
+                {
+                    Capturar[i, j] = "";
+                }
+            }
+            int numero = dataGridView1.RowCount * dataGridView1.ColumnCount;
+            for (int r = 0; r < dataGridView1.RowCount; r++)
+            {
+                for (int c = 0; c < dataGridView1.ColumnCount; c++)
+                {
+                    Capturar[r, c] = dataGridView1.Rows[r].Cells[c].Value.ToString();
+                }
+            }
+            //Cartelera 1
+            string Nombre = Capturar[0, 0];
+            string idioma = Capturar[0, 1];
+            string Sala = Capturar[0, 3];
+            string Horario = Capturar[0, 4];
+            string Categoria = Capturar[0, 5];
 
             NombreLbl.Text = Nombre;
             IdiomaLbl.Text = idioma;
             SalaLbl.Text = Sala;
             HorarioLbl.Text = Horario;
+            //Cartelera 2
+            Nombre = Capturar[1, 0];
+            idioma = Capturar[1, 1];
+            Sala = Capturar[1, 3];
+            Horario = Capturar[1, 4];
+            Categoria = Capturar[1, 5];
+
+            Nombre2Lbl.Text = Nombre;
+            Idioma2Lbl.Text = idioma;
+            Sala2Lbl.Text = Sala;
+            Horario2Lbl.Text = Horario;
+            //Cartelera 3
+            Nombre = Capturar[2, 0];
+            idioma = Capturar[2, 1];
+            Sala = Capturar[2, 3];
+            Horario = Capturar[2, 4];
+            Categoria = Capturar[2, 5];
+
+
+            Nombre3Lbl.Text = Nombre;
+            Idioma3Lbl.Text = idioma;
+            Sala3Lbl.Text = Sala;
+            Horario3Lbl.Text = Horario;
         }
 
         private void Cartelera2_Load(object sender, EventArgs e)

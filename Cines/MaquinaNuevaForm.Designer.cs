@@ -64,9 +64,9 @@
             this.Nombre1Lbl.ForeColor = System.Drawing.Color.White;
             this.Nombre1Lbl.Location = new System.Drawing.Point(24, 272);
             this.Nombre1Lbl.Name = "Nombre1Lbl";
-            this.Nombre1Lbl.Size = new System.Drawing.Size(35, 13);
+            this.Nombre1Lbl.Size = new System.Drawing.Size(44, 13);
             this.Nombre1Lbl.TabIndex = 0;
-            this.Nombre1Lbl.Text = "label1";
+            this.Nombre1Lbl.Text = "Nombre";
             this.Nombre1Lbl.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // Nombre2Lbl
@@ -76,9 +76,9 @@
             this.Nombre2Lbl.ForeColor = System.Drawing.Color.White;
             this.Nombre2Lbl.Location = new System.Drawing.Point(210, 272);
             this.Nombre2Lbl.Name = "Nombre2Lbl";
-            this.Nombre2Lbl.Size = new System.Drawing.Size(35, 13);
+            this.Nombre2Lbl.Size = new System.Drawing.Size(44, 13);
             this.Nombre2Lbl.TabIndex = 1;
-            this.Nombre2Lbl.Text = "label2";
+            this.Nombre2Lbl.Text = "Nombre";
             // 
             // Nombre3Lbl
             // 
@@ -87,9 +87,9 @@
             this.Nombre3Lbl.ForeColor = System.Drawing.Color.White;
             this.Nombre3Lbl.Location = new System.Drawing.Point(384, 272);
             this.Nombre3Lbl.Name = "Nombre3Lbl";
-            this.Nombre3Lbl.Size = new System.Drawing.Size(35, 13);
+            this.Nombre3Lbl.Size = new System.Drawing.Size(44, 13);
             this.Nombre3Lbl.TabIndex = 2;
-            this.Nombre3Lbl.Text = "label3";
+            this.Nombre3Lbl.Text = "Nombre";
             // 
             // Nombre4Lbl
             // 
@@ -98,9 +98,9 @@
             this.Nombre4Lbl.ForeColor = System.Drawing.Color.White;
             this.Nombre4Lbl.Location = new System.Drawing.Point(571, 272);
             this.Nombre4Lbl.Name = "Nombre4Lbl";
-            this.Nombre4Lbl.Size = new System.Drawing.Size(35, 13);
+            this.Nombre4Lbl.Size = new System.Drawing.Size(44, 13);
             this.Nombre4Lbl.TabIndex = 3;
-            this.Nombre4Lbl.Text = "label4";
+            this.Nombre4Lbl.Text = "Nombre";
             // 
             // Categoria1Lbl
             // 
@@ -109,9 +109,9 @@
             this.Categoria1Lbl.ForeColor = System.Drawing.Color.White;
             this.Categoria1Lbl.Location = new System.Drawing.Point(46, 370);
             this.Categoria1Lbl.Name = "Categoria1Lbl";
-            this.Categoria1Lbl.Size = new System.Drawing.Size(35, 13);
+            this.Categoria1Lbl.Size = new System.Drawing.Size(52, 13);
             this.Categoria1Lbl.TabIndex = 19;
-            this.Categoria1Lbl.Text = "label1";
+            this.Categoria1Lbl.Text = "Categoria";
             // 
             // Horario1Lbl
             // 
@@ -120,9 +120,9 @@
             this.Horario1Lbl.ForeColor = System.Drawing.Color.White;
             this.Horario1Lbl.Location = new System.Drawing.Point(46, 344);
             this.Horario1Lbl.Name = "Horario1Lbl";
-            this.Horario1Lbl.Size = new System.Drawing.Size(35, 13);
+            this.Horario1Lbl.Size = new System.Drawing.Size(41, 13);
             this.Horario1Lbl.TabIndex = 18;
-            this.Horario1Lbl.Text = "label1";
+            this.Horario1Lbl.Text = "Horario";
             // 
             // Sala1Lbl
             // 
@@ -131,9 +131,9 @@
             this.Sala1Lbl.ForeColor = System.Drawing.Color.White;
             this.Sala1Lbl.Location = new System.Drawing.Point(46, 323);
             this.Sala1Lbl.Name = "Sala1Lbl";
-            this.Sala1Lbl.Size = new System.Drawing.Size(35, 13);
+            this.Sala1Lbl.Size = new System.Drawing.Size(28, 13);
             this.Sala1Lbl.TabIndex = 17;
-            this.Sala1Lbl.Text = "label1";
+            this.Sala1Lbl.Text = "Sala";
             // 
             // Idioma1Lbl
             // 
@@ -142,9 +142,9 @@
             this.Idioma1Lbl.ForeColor = System.Drawing.Color.White;
             this.Idioma1Lbl.Location = new System.Drawing.Point(46, 302);
             this.Idioma1Lbl.Name = "Idioma1Lbl";
-            this.Idioma1Lbl.Size = new System.Drawing.Size(35, 13);
+            this.Idioma1Lbl.Size = new System.Drawing.Size(38, 13);
             this.Idioma1Lbl.TabIndex = 16;
-            this.Idioma1Lbl.Text = "label1";
+            this.Idioma1Lbl.Text = "Idioma";
             // 
             // Categoria2Lbl
             // 
@@ -153,9 +153,9 @@
             this.Categoria2Lbl.ForeColor = System.Drawing.Color.White;
             this.Categoria2Lbl.Location = new System.Drawing.Point(231, 370);
             this.Categoria2Lbl.Name = "Categoria2Lbl";
-            this.Categoria2Lbl.Size = new System.Drawing.Size(35, 13);
+            this.Categoria2Lbl.Size = new System.Drawing.Size(52, 13);
             this.Categoria2Lbl.TabIndex = 23;
-            this.Categoria2Lbl.Text = "label1";
+            this.Categoria2Lbl.Text = "Categoria";
             // 
             // Horario2Lbl
             // 
@@ -164,9 +164,9 @@
             this.Horario2Lbl.ForeColor = System.Drawing.Color.White;
             this.Horario2Lbl.Location = new System.Drawing.Point(231, 344);
             this.Horario2Lbl.Name = "Horario2Lbl";
-            this.Horario2Lbl.Size = new System.Drawing.Size(35, 13);
+            this.Horario2Lbl.Size = new System.Drawing.Size(41, 13);
             this.Horario2Lbl.TabIndex = 22;
-            this.Horario2Lbl.Text = "label1";
+            this.Horario2Lbl.Text = "Horario";
             // 
             // Sala2Lbl
             // 
@@ -175,9 +175,9 @@
             this.Sala2Lbl.ForeColor = System.Drawing.Color.White;
             this.Sala2Lbl.Location = new System.Drawing.Point(231, 323);
             this.Sala2Lbl.Name = "Sala2Lbl";
-            this.Sala2Lbl.Size = new System.Drawing.Size(35, 13);
+            this.Sala2Lbl.Size = new System.Drawing.Size(28, 13);
             this.Sala2Lbl.TabIndex = 21;
-            this.Sala2Lbl.Text = "label1";
+            this.Sala2Lbl.Text = "Sala";
             // 
             // Idioma2Lbl
             // 
@@ -186,9 +186,9 @@
             this.Idioma2Lbl.ForeColor = System.Drawing.Color.White;
             this.Idioma2Lbl.Location = new System.Drawing.Point(231, 302);
             this.Idioma2Lbl.Name = "Idioma2Lbl";
-            this.Idioma2Lbl.Size = new System.Drawing.Size(35, 13);
+            this.Idioma2Lbl.Size = new System.Drawing.Size(38, 13);
             this.Idioma2Lbl.TabIndex = 20;
-            this.Idioma2Lbl.Text = "label4";
+            this.Idioma2Lbl.Text = "Idioma";
             // 
             // Categoria3Lbl
             // 
@@ -197,9 +197,9 @@
             this.Categoria3Lbl.ForeColor = System.Drawing.Color.White;
             this.Categoria3Lbl.Location = new System.Drawing.Point(409, 370);
             this.Categoria3Lbl.Name = "Categoria3Lbl";
-            this.Categoria3Lbl.Size = new System.Drawing.Size(35, 13);
+            this.Categoria3Lbl.Size = new System.Drawing.Size(52, 13);
             this.Categoria3Lbl.TabIndex = 27;
-            this.Categoria3Lbl.Text = "label5";
+            this.Categoria3Lbl.Text = "Categoria";
             // 
             // Horario3Lbl
             // 
@@ -208,9 +208,9 @@
             this.Horario3Lbl.ForeColor = System.Drawing.Color.White;
             this.Horario3Lbl.Location = new System.Drawing.Point(409, 344);
             this.Horario3Lbl.Name = "Horario3Lbl";
-            this.Horario3Lbl.Size = new System.Drawing.Size(35, 13);
+            this.Horario3Lbl.Size = new System.Drawing.Size(41, 13);
             this.Horario3Lbl.TabIndex = 26;
-            this.Horario3Lbl.Text = "label1";
+            this.Horario3Lbl.Text = "Horario";
             // 
             // Sala3Lbl
             // 
@@ -219,9 +219,9 @@
             this.Sala3Lbl.ForeColor = System.Drawing.Color.White;
             this.Sala3Lbl.Location = new System.Drawing.Point(409, 323);
             this.Sala3Lbl.Name = "Sala3Lbl";
-            this.Sala3Lbl.Size = new System.Drawing.Size(35, 13);
+            this.Sala3Lbl.Size = new System.Drawing.Size(28, 13);
             this.Sala3Lbl.TabIndex = 25;
-            this.Sala3Lbl.Text = "label1";
+            this.Sala3Lbl.Text = "Sala";
             // 
             // Idioma3Lbl
             // 
@@ -230,9 +230,9 @@
             this.Idioma3Lbl.ForeColor = System.Drawing.Color.White;
             this.Idioma3Lbl.Location = new System.Drawing.Point(409, 302);
             this.Idioma3Lbl.Name = "Idioma3Lbl";
-            this.Idioma3Lbl.Size = new System.Drawing.Size(35, 13);
+            this.Idioma3Lbl.Size = new System.Drawing.Size(38, 13);
             this.Idioma3Lbl.TabIndex = 24;
-            this.Idioma3Lbl.Text = "label8";
+            this.Idioma3Lbl.Text = "Idioma";
             // 
             // Categoria4Lbl
             // 
@@ -241,9 +241,9 @@
             this.Categoria4Lbl.ForeColor = System.Drawing.Color.White;
             this.Categoria4Lbl.Location = new System.Drawing.Point(592, 370);
             this.Categoria4Lbl.Name = "Categoria4Lbl";
-            this.Categoria4Lbl.Size = new System.Drawing.Size(35, 13);
+            this.Categoria4Lbl.Size = new System.Drawing.Size(52, 13);
             this.Categoria4Lbl.TabIndex = 31;
-            this.Categoria4Lbl.Text = "label9";
+            this.Categoria4Lbl.Text = "Categoria";
             // 
             // Horario4Lbl
             // 
@@ -252,9 +252,9 @@
             this.Horario4Lbl.ForeColor = System.Drawing.Color.White;
             this.Horario4Lbl.Location = new System.Drawing.Point(592, 344);
             this.Horario4Lbl.Name = "Horario4Lbl";
-            this.Horario4Lbl.Size = new System.Drawing.Size(35, 13);
+            this.Horario4Lbl.Size = new System.Drawing.Size(41, 13);
             this.Horario4Lbl.TabIndex = 30;
-            this.Horario4Lbl.Text = "label1";
+            this.Horario4Lbl.Text = "Horario";
             // 
             // Sala4Lbl
             // 
@@ -263,9 +263,9 @@
             this.Sala4Lbl.ForeColor = System.Drawing.Color.White;
             this.Sala4Lbl.Location = new System.Drawing.Point(592, 323);
             this.Sala4Lbl.Name = "Sala4Lbl";
-            this.Sala4Lbl.Size = new System.Drawing.Size(35, 13);
+            this.Sala4Lbl.Size = new System.Drawing.Size(28, 13);
             this.Sala4Lbl.TabIndex = 29;
-            this.Sala4Lbl.Text = "label1";
+            this.Sala4Lbl.Text = "Sala";
             this.Sala4Lbl.Click += new System.EventHandler(this.label11_Click);
             // 
             // Idioma4Lbl
@@ -275,9 +275,9 @@
             this.Idioma4Lbl.ForeColor = System.Drawing.Color.White;
             this.Idioma4Lbl.Location = new System.Drawing.Point(592, 302);
             this.Idioma4Lbl.Name = "Idioma4Lbl";
-            this.Idioma4Lbl.Size = new System.Drawing.Size(41, 13);
+            this.Idioma4Lbl.Size = new System.Drawing.Size(38, 13);
             this.Idioma4Lbl.TabIndex = 28;
-            this.Idioma4Lbl.Text = "label12";
+            this.Idioma4Lbl.Text = "Idioma";
             // 
             // dataGridView1
             // 

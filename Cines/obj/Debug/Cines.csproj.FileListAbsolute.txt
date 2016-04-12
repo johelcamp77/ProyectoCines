@@ -68,3 +68,10 @@ C:\Users\campo_000\Desktop\Nueva carpeta\ProyectoCines\Cines\obj\Debug\Cines.csp
 >>>>>>> ab6f52d3f4403cdb20429c484ede7bad6b971e59
 C:\Users\campo_000\Desktop\ProyectoCines\Cines\obj\Debug\Cines.AgregarPelicula.resources
 C:\Users\campo_000\Desktop\ProyectoCines\Cines\obj\Debug\Cines.VentanaAdministrador.resources
+C:\Users\Jonathan\Desktop\ProyectoCines\Cines\obj\Debug\Cines.Administrador.resources
+C:\Users\Jonathan\Desktop\ProyectoCines\Cines\obj\Debug\Cines.AgregarPelicula.resources
+C:\Users\Jonathan\Desktop\ProyectoCines\Cines\obj\Debug\Cines.Asientos.resources
+C:\Users\Jonathan\Desktop\ProyectoCines\Cines\obj\Debug\Cines.MaquinaNuevaForm.resources
+C:\Users\Jonathan\Desktop\ProyectoCines\Cines\obj\Debug\Cines.PuntoVenta.resources
+C:\Users\Jonathan\Desktop\ProyectoCines\Cines\obj\Debug\Cines.PuntoVentaUsuario.resources
+C:\Users\Jonathan\Desktop\ProyectoCines\Cines\obj\Debug\Cines.VentanaAdministrador.resources

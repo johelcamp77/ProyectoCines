@@ -602,11 +602,10 @@ namespace Cines
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(132, 319);
+            this.dataGridView1.Location = new System.Drawing.Point(132, 278);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(34, 23);
+            this.dataGridView1.Size = new System.Drawing.Size(96, 64);
             this.dataGridView1.TabIndex = 89;
-            this.dataGridView1.Visible = false;
             // 
             // dataGridView2
             // 

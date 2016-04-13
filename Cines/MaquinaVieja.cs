@@ -44,14 +44,26 @@ namespace Cines
                 string asiento = Console.ReadLine();
                 string asientoSeleccionado = pelicula + "-" + sala + "-" + asiento;
                 Application.ExitThread();
+                validarAsiento(asientoSeleccionado);
                 string sql = "update Sala set estado = " + 1 + "where idAsiento=" + "'" + asientoSeleccionado + "'";
-                DataTable dt = new DataTable();
-                conexionBase.abrirConexion();
-                SqlDataAdapter sqla = new SqlDataAdapter(sql, conexionBase.sqlconn);
-                sqla.Fill(dt);
-                conexionBase.sqlconn.Close();
+               
+                if (validarAsiento(asientoSeleccionado))
+                {
+                    DataTable dt = new DataTable();
+                    conexionBase.abrirConexion();
+                    SqlDataAdapter sqla = new SqlDataAdapter(sql, conexionBase.sqlconn);
+                    sqla.Fill(dt);
+                    conexionBase.sqlconn.Close();
+
+                }
+                else
+                {
+                    Console.WriteLine("Asiento ocupado/No existe");
+                }
+
                 iniciar();
             }
+
             else if (opcion == "2")
             {
                 consola.LiberarConsola();
@@ -60,6 +72,24 @@ namespace Cines
             {
                 Console.WriteLine("Opción inválida\n\n");
                 iniciar();
+            }
+        }
+        public bool validarAsiento(string idAsiento)
+        {
+            string sql = "select estado from Sala where idAsiento= '" + idAsiento+ "'";
+            DataTable dt = new DataTable();
+            conexionBase.abrirConexion();
+            SqlDataAdapter sqla = new SqlDataAdapter(sql, conexionBase.sqlconn);
+            sqla.Fill(dt);
+            conexionBase.sqlconn.Close();
+            string estado = Convert.ToString(dt.Rows[0][0].ToString());
+            if (estado == "False")
+            {
+                return true;
+            }
+            else
+            {
+                return false;
             }
         }
         public void generarAsientos()

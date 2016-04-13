@@ -583,6 +583,26 @@ namespace Cines.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap flecha_derecha {
+            get {
+                object obj = ResourceManager.GetObject("flecha-derecha", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap flecha_izquierda {
+            get {
+                object obj = ResourceManager.GetObject("flecha-izquierda", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap fondo_gris_de_lineas_1053_300 {
             get {
                 object obj = ResourceManager.GetObject("fondo-gris-de-lineas_1053-300", resourceCulture);

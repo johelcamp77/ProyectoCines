@@ -13,7 +13,7 @@ using System.Data.SqlClient;
 namespace Cines
 {
     public partial class AsientosMaquinaNuevaIMAX : Form
-    {
+    {   
         Conexion conexionBase = new Conexion();
         String[,] Capturar = new String[3, 8];
         string[,] leer = new string[45, 1];
@@ -23,6 +23,7 @@ namespace Cines
         string asiento;
         string devolver;
         string estado;
+        public static double Pago;
         public AsientosMaquinaNuevaIMAX()
         {
             InitializeComponent();
@@ -64,6 +65,82 @@ namespace Cines
                 }
 
             }
+            if (MaquinaNuevaForm.Cartel == 5)
+            {
+                if (MaquinaNuevaForm.Cartel5 == "Sencilla")
+                {
+                    sql = "select idPelicula as 'ID',nombrePelicula as 'Película', idioma as Idioma, tipoSala as Sala, numeroSala as 'Sala número', horario as 'Horario'," +
+                                  " categoria as 'Categoría', duracion as 'Duración' from Pelicula where tipoSala = 'Sencilla'";
+                }
+                if (MaquinaNuevaForm.Cartel5 == "IMAX")
+                {
+                    sql = "select idPelicula as 'ID',nombrePelicula as 'Película', idioma as Idioma, tipoSala as Sala, numeroSala as 'Sala número', horario as 'Horario'," +
+                                  " categoria as 'Categoría', duracion as 'Duración' from Pelicula where tipoSala = 'IMAX'";
+                }
+                if (MaquinaNuevaForm.Cartel5 == "3D")
+                {
+                    sql = "select idPelicula as 'ID',nombrePelicula as 'Película', idioma as Idioma, tipoSala as Sala, numeroSala as 'Sala número', horario as 'Horario'," +
+                                  " categoria as 'Categoría', duracion as 'Duración' from Pelicula where tipoSala = '3D'";
+                }
+
+            }
+            if (MaquinaNuevaForm.Cartel == 6)
+            {
+                if (MaquinaNuevaForm.Cartel6 == "Sencilla")
+                {
+                    sql = "select idPelicula as 'ID',nombrePelicula as 'Película', idioma as Idioma, tipoSala as Sala, numeroSala as 'Sala número', horario as 'Horario'," +
+                                  " categoria as 'Categoría', duracion as 'Duración' from Pelicula where tipoSala = 'Sencilla'";
+                }
+                if (MaquinaNuevaForm.Cartel6 == "IMAX")
+                {
+                    sql = "select idPelicula as 'ID',nombrePelicula as 'Película', idioma as Idioma, tipoSala as Sala, numeroSala as 'Sala número', horario as 'Horario'," +
+                                  " categoria as 'Categoría', duracion as 'Duración' from Pelicula where tipoSala = 'IMAX'";
+                }
+                if (MaquinaNuevaForm.Cartel6 == "3D")
+                {
+                    sql = "select idPelicula as 'ID',nombrePelicula as 'Película', idioma as Idioma, tipoSala as Sala, numeroSala as 'Sala número', horario as 'Horario'," +
+                                  " categoria as 'Categoría', duracion as 'Duración' from Pelicula where tipoSala = '3D'";
+                }
+
+            }
+            if (MaquinaNuevaForm.Cartel == 7)
+            {
+                if (MaquinaNuevaForm.Cartel7 == "Sencilla")
+                {
+                    sql = "select idPelicula as 'ID',nombrePelicula as 'Película', idioma as Idioma, tipoSala as Sala, numeroSala as 'Sala número', horario as 'Horario'," +
+                                  " categoria as 'Categoría', duracion as 'Duración' from Pelicula where tipoSala = 'Sencilla'";
+                }
+                if (MaquinaNuevaForm.Cartel7 == "IMAX")
+                {
+                    sql = "select idPelicula as 'ID',nombrePelicula as 'Película', idioma as Idioma, tipoSala as Sala, numeroSala as 'Sala número', horario as 'Horario'," +
+                                  " categoria as 'Categoría', duracion as 'Duración' from Pelicula where tipoSala = 'IMAX'";
+                }
+                if (MaquinaNuevaForm.Cartel7 == "3D")
+                {
+                    sql = "select idPelicula as 'ID',nombrePelicula as 'Película', idioma as Idioma, tipoSala as Sala, numeroSala as 'Sala número', horario as 'Horario'," +
+                                  " categoria as 'Categoría', duracion as 'Duración' from Pelicula where tipoSala = '3D'";
+                }
+
+            }
+            if (MaquinaNuevaForm.Cartel == 8)
+            {
+                if (MaquinaNuevaForm.Cartel8 == "Sencilla")
+                {
+                    sql = "select idPelicula as 'ID',nombrePelicula as 'Película', idioma as Idioma, tipoSala as Sala, numeroSala as 'Sala número', horario as 'Horario'," +
+                                  " categoria as 'Categoría', duracion as 'Duración' from Pelicula where tipoSala = 'Sencilla'";
+                }
+                if (MaquinaNuevaForm.Cartel8 == "IMAX")
+                {
+                    sql = "select idPelicula as 'ID',nombrePelicula as 'Película', idioma as Idioma, tipoSala as Sala, numeroSala as 'Sala número', horario as 'Horario'," +
+                                  " categoria as 'Categoría', duracion as 'Duración' from Pelicula where tipoSala = 'IMAX'";
+                }
+                if (MaquinaNuevaForm.Cartel8 == "3D")
+                {
+                    sql = "select idPelicula as 'ID',nombrePelicula as 'Película', idioma as Idioma, tipoSala as Sala, numeroSala as 'Sala número', horario as 'Horario'," +
+                                  " categoria as 'Categoría', duracion as 'Duración' from Pelicula where tipoSala = '3D'";
+                }
+
+            }
             conexionBase.abrirConexion();
             SqlDataAdapter sqla = new SqlDataAdapter(sql, conexionBase.sqlconn);
             sqla.Fill(dt);
@@ -91,7 +168,35 @@ namespace Cines
                 Pelicula = Capturar[1, 1];
                 Sala = Capturar[1, 3];
             }
-            if (MaquinaNuevaForm.Cartel != 4)
+            if (MaquinaNuevaForm.Cartel == 5)
+            {
+                Id = Capturar[1, 0];
+                Pelicula = Capturar[1, 1];
+                Sala = Capturar[1, 3];
+            }
+            if (MaquinaNuevaForm.Cartel == 6)
+            {
+                Id = Capturar[1, 0];
+                Pelicula = Capturar[1, 1];
+                Sala = Capturar[1, 3];
+            }
+            if (MaquinaNuevaForm.Cartel == 7)
+            {
+                Id = Capturar[2, 0];
+                Pelicula = Capturar[2, 1];
+                Sala = Capturar[2, 3];
+            }
+            if (MaquinaNuevaForm.Cartel == 8)
+            {
+                Id = Capturar[2, 0];
+                Pelicula = Capturar[2, 1];
+                Sala = Capturar[2, 3];
+            }
+            if (MaquinaNuevaForm.Cartel != 4 
+                && MaquinaNuevaForm.Cartel != 5
+                && MaquinaNuevaForm.Cartel != 6
+                && MaquinaNuevaForm.Cartel != 7
+                && MaquinaNuevaForm.Cartel != 8)
             {
                 Id = Capturar[0, 0];
                 Pelicula = Capturar[0, 1];
@@ -114,7 +219,7 @@ namespace Cines
             {
                 for (int j = 0; j < 1; j++)
                 {
-                    leer[i, j] = "";
+                    leer[i, j] = "false";
                 }
             }
             for (int r = 0; r < dataGridView2.RowCount - 1; r++)
@@ -467,6 +572,7 @@ namespace Cines
             asiento = Pelicula + "-" + Sala + "-" + "A1";
             CambiarBase(asiento);
             A1Btn.Enabled = false;
+
         }
 
         private void VolverBtn_Click(object sender, EventArgs e)
@@ -485,6 +591,7 @@ namespace Cines
             SqlDataAdapter sqla = new SqlDataAdapter(sql, conexionBase.sqlconn);
             sqla.Fill(dt);
             conexionBase.sqlconn.Close();
+            Pago = Pago + 3000;
         }
         public void CambiarBase2(string asiento)
         {
@@ -891,6 +998,13 @@ namespace Cines
             asiento = Pelicula + "-" + Sala + "-" + "B8";
             CambiarBase(asiento);
             B8Btn.Enabled = false;
+        }
+
+        private void ComprarBtn_Click(object sender, EventArgs e)
+        {
+            Cobro Nuevo = new Cobro();
+            Nuevo.Show();
+            Dispose();
         }
     }
 }

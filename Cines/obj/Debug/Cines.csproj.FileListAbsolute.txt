@@ -77,3 +77,4 @@ C:\Users\Jonathan\Desktop\ProyectoCines\Cines\obj\Debug\Cines.PuntoVentaUsuario.
 C:\Users\Jonathan\Desktop\ProyectoCines\Cines\obj\Debug\Cines.VentanaAdministrador.resources
 C:\Users\Jonathan\Desktop\ProyectoCines\Cines\obj\Debug\Cines.AsientosMaquinaNueva.resources
 C:\Users\Jonathan\Desktop\ProyectoCines\Cines\obj\Debug\Cines.AsientosMaquinaNuevaIMAX.resources
+C:\Users\Jonathan\Desktop\ProyectoCines\Cines\obj\Debug\Cines.Cobro.resources

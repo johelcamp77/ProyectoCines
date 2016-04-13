@@ -15,6 +15,7 @@ namespace Cines
         public Asientos()
         {
             InitializeComponent();
+            
         }
 
         private void Asientos_Load(object sender, EventArgs e)

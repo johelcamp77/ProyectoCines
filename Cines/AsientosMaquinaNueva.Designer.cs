@@ -597,6 +597,7 @@ namespace Cines
             this.ComprarBtn.Text = "Comprar";
             this.ComprarBtn.UseVisualStyleBackColor = true;
             this.ComprarBtn.Visible = false;
+            this.ComprarBtn.Click += new System.EventHandler(this.ComprarBtn_Click);
             // 
             // dataGridView1
             // 

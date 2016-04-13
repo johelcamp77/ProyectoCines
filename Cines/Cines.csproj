@@ -86,6 +86,12 @@
     <Compile Include="Cartelera3.Designer.cs">
       <DependentUpon>Cartelera3.cs</DependentUpon>
     </Compile>
+    <Compile Include="Cobro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cobro.Designer.cs">
+      <DependentUpon>Cobro.cs</DependentUpon>
+    </Compile>
     <Compile Include="Conexion.cs" />
     <Compile Include="Consola.cs" />
     <Compile Include="MaquinaNueva.cs" />
@@ -148,6 +154,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Cartelera3.resx">
       <DependentUpon>Cartelera3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cobro.resx">
+      <DependentUpon>Cobro.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MaquinaNuevaForm.resx">
       <DependentUpon>MaquinaNuevaForm.cs</DependentUpon>
@@ -363,6 +372,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Asiento seleccionado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flecha-derecha.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flecha-izquierda.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

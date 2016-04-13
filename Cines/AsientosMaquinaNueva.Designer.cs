@@ -78,7 +78,9 @@ namespace Cines
             this.VolverBtn = new System.Windows.Forms.Button();
             this.ComprarBtn = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.SuspendLayout();
             // 
             // A1Btn
@@ -601,9 +603,18 @@ namespace Cines
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(132, 319);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(29, 19);
+            this.dataGridView1.Size = new System.Drawing.Size(34, 23);
             this.dataGridView1.TabIndex = 89;
             this.dataGridView1.Visible = false;
+            // 
+            // dataGridView2
+            // 
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Location = new System.Drawing.Point(234, 319);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.Size = new System.Drawing.Size(31, 23);
+            this.dataGridView2.TabIndex = 90;
+            this.dataGridView2.Visible = false;
             // 
             // AsientosMaquinaNuevaIMAX
             // 
@@ -613,6 +624,7 @@ namespace Cines
             this.BackgroundImage = global::Cines.Properties.Resources.Asientos1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(425, 350);
+            this.Controls.Add(this.dataGridView2);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.ComprarBtn);
             this.Controls.Add(this.VolverBtn);
@@ -667,6 +679,7 @@ namespace Cines
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AsientosMaquinaNueva";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -722,5 +735,6 @@ namespace Cines
         private EventHandler B8Btn_Click;
         private System.Windows.Forms.Button ComprarBtn;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dataGridView2;
     }
 }
